@@ -26,7 +26,7 @@ public class TipCalculator {
 
     public static String extraCredit(int people, int percent, double cost) {
         Scanner scanner = new Scanner(System.in);
-        String menuItem = "x";
+        String menuItem = "";
         double tip = (percent/100.0) * cost;
         double costWithTip = cost + tip;
         double perPerson = cost/people;
