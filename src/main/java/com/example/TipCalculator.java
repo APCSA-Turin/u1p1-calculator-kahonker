@@ -13,7 +13,7 @@ public class TipCalculator {
 
         String result = "-------------------------------\n" +
                        "Total bill before tip: $" + cost + "\n" +
-                       "Total percentage: " + percent + "%\n" +
+                       "Total percentage: " + percent +  "%\n" +
                        "Total tip: $" + (double)Math.round((tip) * 100)/100 + "\n" +
                        "Total Bill with tip: $" + (double)Math.round((costWithTip) * 100)/100 + "\n" +
                        "Per person cost before tip: $" + (double)Math.round((perPerson) * 100)/100 + "\n" +
